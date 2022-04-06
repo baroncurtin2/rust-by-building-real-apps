@@ -77,7 +77,6 @@ impl From<MethodError> for ParseError {
     }
 }
 
-
 impl From<Utf8Error> for ParseError {
     fn from(_: Utf8Error) -> Self {
         Self::InvalidEncoding

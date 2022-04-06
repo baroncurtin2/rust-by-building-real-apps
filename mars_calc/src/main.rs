@@ -13,7 +13,6 @@ Reference Rules
 2. We can have a single mutable reference
 */
 
-
 use std::io;
 
 fn main() {

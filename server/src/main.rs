@@ -11,12 +11,12 @@ Special Types
 - Option<T> is a type that can be either Some(T) or None
 - Result<T, E> is a type that can be either Ok(T) or Err(E)
 */
-use server::Server;
-use http::Request;
 use http::Method;
+use http::Request;
+use server::Server;
 
-mod server;
 mod http;
+mod server;
 
 fn main() {
     let server = Server::new("127.0.0.1:8080".to_string());
