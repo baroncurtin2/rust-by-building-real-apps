@@ -11,9 +11,9 @@ Special Types
 - Option<T> is a type that can be either Some(T) or None
 - Result<T, E> is a type that can be either Ok(T) or Err(E)
 */
-use http::Method;
-use http::Request;
-use server::Server;
+#![allow(dead_code)]
+
+use crate::server::Server;
 
 mod http;
 mod server;
